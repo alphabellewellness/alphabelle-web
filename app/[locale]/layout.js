@@ -7,12 +7,12 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { AOSInit } from "@/aos"
 import Head from "next/head";
-import GTag from "./gtag";
+
 
 const montse = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Monarca | Life Improvement",
+	title: "AlphaBelle",
 	description:
 		"Your reliable partner to improve your property! We offer customized and effective solutions for projects of any size, guaranteeing results that exceed your expectations.",
 	icons: {
@@ -31,22 +31,8 @@ export default async function LocaleLayout({ children, params }) {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="icon" type="image/png" href="/favicon.png" />
 				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-				{/* <script
-					src={`https://widget.gethearth.com/script.js`}
-					id="hearth-script"
-					data-orgid="49438"
-					data-partner="monarca-life-improvement"
-					data-orgUuid="9acc99cb-c1be-46fa-9ec8-2ea54a8e0b62"
-					async
-				></script> */}
-				<script
-					src="https://widget.gethearth.com/script.js"
-					id="hearth-script"
-					data-orgid="49438"
-					data-partner="monarca-life-improvement"
-					data-orgUuid="9acc99cb-c1be-46fa-9ec8-2ea54a8e0b62"
-					async
-				></script>
+				
+				
 			</Head>
 			<AOSInit />
 			<body className="max-w-max min-w-min mx-auto">
@@ -57,7 +43,7 @@ export default async function LocaleLayout({ children, params }) {
 					</div>
 					<Footer />
 				</NextIntlClientProvider>
-				<GTag />
+				
 			</body>
 		</html>
 	);

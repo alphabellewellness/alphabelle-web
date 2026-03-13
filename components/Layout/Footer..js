@@ -20,7 +20,7 @@ const Footer = () => {
 			<div className="grid grid-cols-1 lg:grid-cols-3 lg:space-y-0 pb-8 md:pb-16 gap-7 lg:gap-20 place-items-start ">
 				<div className="w-3/5">
 					<Image
-						src="/image/logo-monarca.png"
+						src="/image/logo.png"
 						alt="Logo"
 						width={384}
 						height={126}
@@ -32,7 +32,7 @@ const Footer = () => {
 						{t("title")}
 					</h2>
 					<p className="text-primary text-xl text-start">{t("text")}</p>
-					<button className="rounded-full font-light text-white bg-primary px-5 py-1 hover:bg-secundary">
+					<button className="mt-20 mx-auto w-fit border-2 border-black px-10 py-3 rounded-2xl font-semibold hover:bg-black hover:text-white transition">
 						<span className="px-1 font-bold">
 							<a href={`/${localActive}/#contact`}>{t("buttonc")}</a>
 						</span>

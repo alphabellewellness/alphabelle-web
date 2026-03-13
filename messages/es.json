@@ -2,27 +2,32 @@
   "NavBar":{
     "links1": "Inicio",
     "href1":"/",
-    "links2": "Nosotros",
+    "links2": "Sobre Nosotros",
     "href2":"about",
     "links3":"Servicios",
     "href3":"/#services",
-    "links4":"Metodologia",
+    "links4":"Reservacion",
     "href4":"/#howWill",
     "links5":"English",
     "href5":"/en",
-    "buttonCont":"Contactanos"
+    "buttonCont":"Reservar una cita"
   },
 
   "Banner": {
-    "title": "Creando espacios, superando expectativas.",
-    "parrafo1": "¡Tu socio confiable para mejorar tu propiedad! Ofrecemos soluciones personalizadas y efectivas para proyectos de cualquier tamaño, garantizando resultados que superan tus expectativas.",
-    "buttonc": "Contacto",
+    "title": "Somos tu destino exclusivo con precisión médica de vanguardia.",
+    "parrafo1": "¡Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
+    "buttonc": "Reserva tu consulta privada",
     "buttons": "Nuestros Servicios"
   },
+
+  "AboutUsHome":{
+    "text1":"En AlphaBelle entendemos que la excelencia no tiene género.",
+    "text2":"Resultados naturales, discreción absoluta y protocolos personalizados para la anatomía masculina y femenina."
+  },
   "AboutUs":{
-    "heading":"¿Quiénes somos?",
+    "heading":"Sobre nosotros",
     "title":"Sobre nosotras",
-    "subTitle":"¿Por que elegirnos?",
+    "subTitle":"Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
     "text":"Desde nuestra fundación en 2020, nuestra misión en Monarca Life Improvement ha sido facilitar a nuestros clientes la realización de mejoras en sus propiedades y el impulso de sus negocios, especialmente cuando carecen de los recursos necesarios en el momento crucial. Nos dedicamos a ofrecer soluciones efectivas y personalizadas, buscando constantemente las mejores opciones para satisfacer las necesidades de nuestros clientes y ayudarles a alcanzar sus metas con éxito.",
     "mision":"Mision",
     "textM":" Impulsar un futuro sostenible con energía renovable y proyectos de alta calidad. Ofrecemos soluciones innovadoras para reducir gastos y huella ambiental, mejorando la eficiencia y comodidad en hogares y negocios. Queremos liderar el mercado e inspirar un estilo de vida más sustentable.",
@@ -43,43 +48,91 @@
     "text2":"Reemplazo de techo, insolación, ayudarte a cambiar de proveedor eléctrico sin costos. Nuestro objetivo es ofrecerte alternativas personalizadas que respondan efectivamente a tus requerimientos."
   },
   "Services":{
-    "title":"Nos especializamos en",
+    "title":"Profesionales en:",
+    "subtitle":"Procedimientos Médico-Estéticos",
+    "buttons":"See all services",
+    "buttons1":"Quiero saber mas",
+    "texts1":"¿Listo para agendar?",
+    "texts2":"Reserva tu cita y recibe una consulta personalizada.",
+
+    "s1":"Procedimientos Médico-Estéticos",
     "imagen1":"/image/icono-otorgamos.png",
     "descripcion1":"para proyectos estéticos y funcionales tanto comerciales como residenciales",
-    "paRes1": "Otorgamos hasta $250.000",
-    "paRes11":"",
+    "text1":"Principales indicaciones",
+    "text12":"El tratamiento es mínimamente invasivo, con un inicio de acción progresivo y una duración aproximada de 3 a 4 meses.",
+    "text13":"",
+    "d11":"Líneas glabelares",
+    "d12":"Líneas de la frente",
+    "d13":"Líneas periorbitarias (ojos de perdiz)",
+    "d14":"Prevención del envejecimiento dinámico",
+    "d15":"",
+    "d16":"",
+    "d17":"",
+    "d18":"",
 
+
+   "s2":"Rellenos Dérmicos (Ácido Hialurónico y Bioestimuladores)",
     "imagen2":"/image/icono-renovacion.png",
-    "descripcion2":"para las propiedades",
-    "paRes2": "Inspecciones",
-    "paRes22":"completamente gratis",
+    "descripcion2":"Procedimientos inyectables destinados a restaurar volumen, mejorar contornos faciales y corregir pérdida estructural asociada al envejecimiento.",
+    "text2":"Los materiales utilizados son biocompatibles y reabsorbibles, con resultados inmediatos y duración variable según el producto y metabolismo del paciente.",
+    "text22":"Áreas tratadas:",
+    "text23":"Mecanismo:",
+    "d21":"Labios",
+    "d22":"Surcos nasogenianos",
+    "d23":"Pómulos",
+    "d24":"Mentón",
+    "d25":"Línea mandibular",
+    "d26":"Ojeras",
+    "d27":"Reposición volumétrica inmediata.",
+    "d28":"Estimulación secundaria de neocolagénesis (dependiendo del producto utilizado).",
 
+    "s3":"PRN (Polinucleótidos Regenerativos)",
     "imagen3":"/image/icono-panel-solar.png",
-    "descripcion3":"los problemas que tengas con tu actual",
-    "paRes3": "Resolvemos",
-    "paRes33":"sistema de paneles solares",
+    "descripcion3":"Terapia regenerativa basada en polinucleótidos altamente purificados que actúan como bioestimuladores dérmicos. Promueven la reparación tisular mediante:",
+    "text3":"Indicados para:",
+    "text32":"",
+    "text33":"",
+    "d31":"Estimulación de fibroblastos.",
+    "d32":"Incremento en síntesis de colágeno y elastina.",
+    "d33":"Mejora de microcirculación.",
+    "d34":"Aumento de hidratación profunda",
+    "d35":"Piel fotoenvejecida.",
+    "d36":"Pérdida de elasticidad.",
+    "d37":"Cicatrices.",
+    "d38":"Textura irregula",
 
+    "s4":"Plasma Rico en Plaquetas (PRP)",
     "imagen4":"/image/icono-rentable.png",
     "descripcion4":"de energía",
-    "paRes4": "Proyectos",
-    "paRes44":"renovable",
 
+     "extra41":"Liberación de factores de crecimiento (PDGF, TGF-β, VEGF).",
+    "extra42":"Estimulación de angiogénesis.",
+    "extra43":"AActivación de fibroblastos.",
+    "extra44":"Inducción de neocolagenesis.",
+    
+    "text4": "Mecanismo de acción:",
+    "text42":"Modalidades:",
+    "text43":"Indicado para:",
+    "d41":"PRP Inyectado:",
+    "d42":"Aplicación intradérmica o subdérmica para bioestimulación profunda.",
+    "d43":"PRP combinado con Microneedling (Dermapen):",
+    "d44":"Inducción controlada de microcanales para potenciar penetración y activación regenerativa.",
+    "d45":"Alopecia.",
+    "d46":"Rejuvenecimiento facial.",
+    "d47":"Cicatrices de acné.",
+    "d48":"Melasma complementario.",
+
+    "s5":"",
     "imagen5":"/image/icono-remodelacion.png",
     "descripcion5":"residenciales y comerciales",
     "paRes5": "Remodelaciones",
     "paRes55":"",
-  
+    
+    "s7":"",
     "imagen6":"/image/icono-instalacion.png",
     "descripcion6":"de acondicionadores de agua para",
     "paRes6": "Instalación",
-    "paRes66":"toda tu propiedad",
-
-    "messageW1":"Hola, quiero informacion, sobre: Le otorgamiento de $250.000",
-    "messageW2":"Hola, quiero informacion, sobre: Inspecciones",
-    "messageW3":"Hola, quiero informacion, sobre: Paneles solares",
-    "messageW4":"Hola, quiero informacion, sobre: Proyectos de energia",
-    "messageW5":"Hola, quiero informacion, sobre: Remodelaciones",
-    "messageW6":"Hola, quiero informacion, sobre: Instalacion acondicionadores de agua"
+    "paRes66":"toda tu propiedad"
   },
   "Contact":{
     "title":"Estamos listas para brindarte la mejor asesoria correspondiente para tu negocio o tu hogar.",
@@ -99,48 +152,30 @@
     "services":"Servicio",
     "error":"Por favor, completa todos los campos antes de enviar el formulario."
   },
-  "Customers":{
-    "title":"¿Qué dicen nuestros clientes?",
-    "text":"Descubre las historias de éxito de nuestros clientes y cómo hemos transformado sus propiedades con soluciones a medida.",
-    "buttons":"Conoce más",
-    "titleS":"¡Historias de exitos!",
-    "customer1":"Gustavo Cortes",
-    "description1":"Mariana y Maria realizaron un gran trabajo en mi casa, logré cambiar mi techo en el momento donde no tenía la disponibilidad de dinero y además de eso no pagar más electricidad ya que tengo un sistema de paneles solares y ahora mis Bill son negativos, no pago a la compañía eléctrica.",
-    "customer2":"Antonia Campos",
-    "description2":"Monarca life improvement, fue el equipo encargado de realizar las remodelaciones que mi casa necesitaba como insolación, reparación de ventanas y la culminación de una de las paredes de la cocina, fue un proceso rápido y sencillo. También recibí bonificaciones que me ayudaron a mejorar situaciones en mi vida personal, este es mi primer año utilizando paneles solares y me ha ido muy bien. Además de eso me indicaron en cada etapa que necesitaba hacer y  me ayudaron a hacerlo.",
-    "customer3":"Héctor Echeverría",
-    "description3":"Trabajar con Monarca cumplió las expectativas que tenía sobre el proyecto que diseñaron para mi y mi familia. En el proyecto se hizo el cambio de mi techo cosa que dependía de mi aseguranza inmobiliaria y no respondieron, esta compañía me ayudó a lograr esto y también eliminar el bill eléctrico de mi propiedad. Ahora tengo 100$ en dólares en crédito y solo tengo 5 meses con mis paneles solares. ",
-    "customer4":"Martha Echeverría",
-    "description4":"Para las personas que no confían en los sistemas solares les recomiendo que solo elijan y un buen asesor, que sea profesional y que los acompañe en todo momento como lo hicieron estas chicas con nosotros.",
-    "customer5":"Julieta de sosa",
-    "description5":"Son una compañía que no ha dejado de responder mis inquietudes y preguntas en cada momento y durante el proceso en el cual se realizó el proyecto de energía renovable para una de mis propiedades. Tienen mucha paciencia y dedicación en lo que hacen. ",
-    "customer6":"Salvador Carrillo",
-    "description6":"Estoy muy feliz porque desde el inicio del proyecto las chicas estuvieron muy al pendiente de todo y me ayudaron a adquirir los beneficios de manera muy efectiva y eficiente."
+  "Testimonial":{
+    "title":"Comentarios",
+    "nombre1":"Gustavo Cortes",
+    "profecion":"",
+    "mensaje1":""
   },
   "Allies":{
     "title":"Nuestros Aliados"
   },
-  "GetQuote":{
-    "title":"¿Quieres más información?",
-    "text":"Escribir codigo postal",
-    "text1":"Encuentranos",
-    "buttonc":"Comenzar",
-    "alert":"Lo sentimos, no se encuentra actualmente dentro de nuestras áreas de cobertura.",
-    "subTitle":"Estoy interesado en:",
-    "codeV":"Verifica tu codigo postal",
-    "buttonClo":"Cerrar",
-    "buttonA":"Agendar inspección general",
-    "buttonCh":"Chequeo de mi sistema de paneles actual",
-    "buttonR":"Remodelación y mantenimiento",
-    "buttonI":"Instalación de acondicionamiento de agua",
-    "message":"¡Formulario enviado con éxito!",
-    "error":"El código postal está en blanco. Por favor, ingresa un valor válido."
+
+  
+  "CTA":{
+    "title":"El momento de invertir en ti es ahora",
+    "text":"No dejes tu bienestar para después. Nuestro equipo de especialistas está listo para diseñar un protocolo exclusivo que se adapte a tus objetivos y resalte tu esencia natural.",
+    "text1":"Social Media",
+    "text2":"Contactanos",
+    "buttonc":"Quiero hacer mi reserva"
   },
+
   "Footer":{
     "title":"¿Quieres más información?",
     "text":"Estamos listas para brindarte la mejor asesoria correspondiente para tu negocio o tu hogar.",
     "text1":"Encuentranos",
-    "buttonc":"Contactanos"
+    "buttonc":"Hacer una reservacion"
   }
 
 }

@@ -6,17 +6,22 @@
     "href2":"about",
     "links3":"Services",
     "href3":"/#services",
-    "links4":"Metodologia",
+    "links4":"Reservation",
     "href4":"/#howWill",
     "links5":"Español",
     "href5":"/es",
-  "buttonCont":"Contact"
+  "buttonCont":"Book Appointment"
   },
   "Banner": {
-    "title": "Creating spaces, exceeding expectations.",
-    "parrafo1": "Your reliable partner to improve your property! We offer customized and effective solutions for projects of any size, guaranteeing results that exceed your expectations.",
-    "buttonc": "Contact",
+    "title": "We are your exclusive destination with cutting-edge medical precision.",
+    "parrafo1": "We have designed a space where regenerative medicine and high-end aesthetics converge to empower the best version of our patients.",
+    "buttonc": "Book your private consultation",
     "buttons": "Our Services"
+  },
+
+  "AboutUsHome":{
+    "text1":"At AlphaBelle, we understand that excellence has no gender.",
+    "text2":"Natural results, absolute discretion, and personalized protocols tailored to both male and female anatomy."
   },
   "AboutUs":{
     "heading":"¿Who are we?",
@@ -42,44 +47,114 @@
     "text2":"Roof replacement, insolation, help you switch electrical suppliers at no cost. Our goal is to offer you customized alternatives that effectively respond to your requirements."
   },
   "Services":{
-    "title":"We specialize in",
+    "title":"Professionals in:",
+    "subtitle":"Medical-Aesthetic Procedures",
+    "buttons":"See all services",
+    "buttons1": "I want to know more",
+    "texts1": "Ready to book?",
+    "texts2": "Reserve your appointment and receive a personalized consultation.",
+
+    "s1":"Botulinum Toxin Type A (Botox)",
     "imagen1":"/image/icono-otorgamos.png",
-    "descripcion1":"or aesthetic and functional projects, both commercial and residential",
-    "paRes1": "We grant up to $250,000",
-    "paRes11":"",
+    "descripcion1":"Intramuscular application of botulinum toxin type A for the temporary modulation of neuromuscular activity. Its mechanism of action consists of the presynaptic inhibition of acetylcholine release at the neuromuscular junction, producing controlled muscle relaxation.",
+    "text1":"Main indications",
+    "text12":"The treatment is minimally invasive, with a progressive onset of action and an approximate duration of 3 to 4 months.",
+    "text13":"",
+    "d11":"Glabellar lines",
+    "d12":"Forehead lines",
+    "d13":"Periorbital lines (crow’s feet",
+    "d14":"Prevention of dynamic aging",
+    "d15":"",
 
+
+    "s2":"Dermal Fillers (Hyaluronic Acid and Biostimulators)",
     "imagen2":"/image/icono-renovacion.png",
-    "descripcion2":"property ",
-    "paRes2": "Completely free",
-    "paRes22":"inspections",
+    "descripcion2":"Injectable procedures designed to restore volume, improve facial contours, and correct structural loss associated with aging.",
+    "text2":"The materials used are biocompatible and resorbable, with immediate results and variable duration depending on the product and the patient’s metabolism.",
+    "text22":"Treated areas",
+    "text23":"Mechanism:",
+    "d21":"Lips.",
+    "d22":"Nasolabial folds.",
+    "d23":"Cheekbones.",
+    "d24":"Chin.",
+    "d25":"Jawline.",
+    "d26":"Under-eye hollows.",
+    "d27":"Immediate volumetric replacement",
+    "d28":"Secondary stimulation of neocollagenesis (depending on the product used).",
 
+    "s3":"PRN (Regenerative Polynucleotides)",
     "imagen3":"/image/icono-panel-solar.png",
-    "descripcion3":"the problemes you have with your curent",
-    "paRes3": "We solve ",
-    "paRes33":"solar panel system",
+    "descripcion3":"Regenerative therapy based on highly purified polynucleotides that act as dermal biostimulators. They promote tissue repair through:",
+    "text3":"Indicated for:",
+    "text32":"",
+    "text33":"",
+    "d31":"Fibroblast stimulation.",
+    "d32":"Increased collagen and elastin synthesis.",
+    "d33":"Improved microcirculation.",
+    "d34":"Enhanced deep hydration.",
+    "d35":"Photoaged skin.",
+    "d36":"Loss of elasticity.",
+    "d37":"Scars.",
+    "d38":"Irregular texture.",
 
+
+    "s4":"Platelet-Rich Plasma (PRP)",
     "imagen4":"/image/icono-rentable.png",
-    "descripcion4":"energy",
-    "paRes4": "Renewable",
-    "paRes44":"projects",
+    "descripcion4":"Autologous treatment based on centrifugation of the patient’s blood to isolate a high concentration of platelets and growth factors.",
 
-    "imagen5":"/image/icono-remodelacion.png",
-    "descripcion5":"Residential and comercial ",
-    "paRes5": "remodeling",
-    "paRes55":"",
+    "text4": "Mechanism of action:",
+    "text42":"Modalities:",
+    "text43":"Injected PRP:",
+    "text44":"Intradermal or subdermal application for deep biostimulation.:",
+
+    "d41":"Release of growth factors (PDGF, TGF-β, VEGF)",
+    "d42":"Stimulation of angiogenesis.",
+    "d43":"Activation of fibroblasts.",
+    "d44":"Induction of neocollagenesis.",
+
+
   
-    "imagen6":"/image/icono-instalacion.png",
-    "descripcion6":"of water conditioners for",
-    "paRes6": "Installation",
-    "paRes66":"your entire property",
+    "s5":"Testosterone Replacement Therapy (TRT)",
+    "imagen5":"/image/icono-remodelacion.png",
+    "descripcion5":"Hormonal treatment indicated in patients with laboratory-confirmed hypogonadism and clinical evaluation.",
 
-    "messageW1":"Hello, I would like information about: $250,000 grant",
-    "messageW2":"Hello, I want information, about: Inspections",
-    "messageW3":"Hello, I want information about: Solar panels",
-    "messageW4":"Hello, I want information about: Energy projects",
-    "messageW5":"Hello, I want information about: Remodeling",
-    "messageW6":"Hello, I want information about: Installation of water conditioners"
+    "text5":"Administration",
+    "text52":"Therapeutic goals:",
+    "text53":"Requires periodic monitoring of:",
+    "text54":"Intramuscular or subcutaneous injectable testosterone",
+
+    "d50":"Restoration of physiological levels",
+    "d51":"Improvement of muscle mass",
+    "d52":"Optimization of energy and cognitive function.",
+    "d53":"Enhanced libido and overall well-being.",
+    "d54":"Serum testosterone levels.",
+    "d55":"Hematocrit.",
+    "d56":"Lipid profile.",
+    "d57":"Liver function.",
+    "d58":"PSA (in men).",
+  
+    
+    "s6":"Medical Weight Management with GLP-1 / GIP Agonists",
+    "imagen6":"/image/icono-instalacion.png",
+    "descripcion6":"Personalized medical protocols for weight control using injectable medications such as:",
+
+    "text6":"Mechanism of action:",
+    "text62":"Indications:",
+    "text63":"Indicated for patients with overweight or obesity under comprehensive medical evaluation. Requires continuous clinical and metabolic monitoring.",
+    "d61":"GLP-1 receptor agonism (and GIP in tirzepatide)",
+    "d62":"Delayed gastric emptying.",
+    "d63":"Regulation of appetite at the hypothalamic level.",
+    "d64":"Improved insulin sensitivity.",
+
+    "s7":"PRP combined with Microneedling (Dermapen):",
+    "descripcion7":"Controlled induction of microchannels to enhance penetration and regenerative activation.",
+    "text71":"Indicated for:",
+    "d71":"Alopecia",
+    "d72":"Facial rejuvenation",
+    "d73":"Acne scars.",
+    "d74":"Adjunct treatment for melasma."
   },
+
   "Contact":{
     "title":"We are ready to provide you with the best advice for your business or home.",
     "subTitle":"Complete your information below to continue.",
@@ -98,42 +173,22 @@
     "services":"Service",
     "error":"Please complete all fields before submitting the form."
   },
-  "Customers":{
-    "title":"What do our customers say?",
-    "text":"Discover our clients' success stories and how we have transformed their properties with customized solutions.",
-    "buttons":"More",
-    "titleS":"Success Stories!",
-    "customer1":"Gustavo Cortes",
-    "description1":"Mariana and Maria did a great job on my house, I was able to change my roof at a time when I didn't have the money available and besides that I don't pay any more electricity since I have a solar panel system and now my bills are negative, I don't pay to the electric company.",
-    "customer2":"Antonia Campos",
-    "description2":"Monarca life improvement, was the team in charge of doing the remodeling that my house needed such as insolation, window repairs and the completion of one of the kitchen walls, it was a quick and easy process. I also received bonuses that helped me to improve situations in my personal life, this is my first year using solar panels and it has worked very well for me.Besides that they told me at each stage what I needed to do and helped me to do it.",
-    "customer3":"Héctor Echeverría",
-    "description3":"Working with Monarca fulfilled the expectations I had about the project they designed for me and my family. In the project I had to replace my roof which depended on my real estate insurance and they did not respond, this company helped me to achieve this and also eliminate the electric bill of my property. Now I have $100 in credit and only have 5 months with my solar panels.",
-    "customer4":"Martha Echeverría",
-    "description4":"For people who do not trust solar systems, I recommend that they only choose a good advisor, who is professional and who will accompany them at all times as these girls did with us.",
-    "customer5":"Julieta de sosa",
-    "description5":"They are a company that has not ceased to answer my concerns and questions at every moment and during the process in which the renewable energy project for one of my properties was carried out. They have a lot of patience and dedication in what they do.",
-    "customer6":"Salvador Carrillo",
-    "description6":"I am very happy because from the beginning of the project the girls have been very attentive to everything. They have helped me to get the benefits in a very effective and efficient way."
+  "Testimonial":{
+    "title":"Testimonial?",
+    "nombre1":"Gustavo Cortes",
+    "profecion":"",
+    "mensaje1":""
   },
   "Allies":{
     "title":"Our Allies"
   },
-  "GetQuote":{
-    "title":"¿Quieres más información?",
-    "text":"Enter Zip Code",
-    "text1":"Encuentranos",
-    "buttonc":"Get Started",
-    "alert":"We’re sorry, is not currently in an area we support.",
-    "subTitle":"I'm interested in:",
-    "codeV":"Check your zip code",
-    "buttonClo":"Close",
-    "buttonA":"Schedule general inspection",
-    "buttonCh":"Checking my current panel system",
-    "buttonR":"Remodeling and maintenance",
-    "buttonI":"Installation of water conditioning systems",
-    "message":"¡Formulario enviado con éxito!",
-    "error":"The zip code is blank. Please enter a valid value."
+
+  "CTA":{
+    "title":"Do you want to know more about our services?",
+    "text":"We are ready to provide you with the best advice for your business or home.",
+    "text1":"Social Media",
+    "text2":"Contact us",
+    "buttonc":"Contact us"
   },
   "Footer":{
     "title":"Do you want more information?",
