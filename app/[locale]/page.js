@@ -2,6 +2,7 @@
 import AboutSection from "@/components/About/AboutSection";
 import Banner from "@/components/Banner";
 import ContactSection from "@/components/Contact/ContactSection";
+import MapSection from "@/components/Contact/Mapsection";
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import ServicesSection from "@/components/Servicies/ServicesSection";
 import TestimonialsSection from "@/components/Testimonials/TestimonialsSection";
@@ -17,6 +18,7 @@ export default function Home() {
 			<AboutSection/>
 			<TestimonialsSection/>
 			<ContactSection/>
+			<MapSection/>
 		</main>
 	);
 }	

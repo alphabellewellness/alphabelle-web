@@ -155,24 +155,28 @@
     "d74":"Adjunct treatment for melasma."
   },
 
-  "Contact":{
-    "title":"We are ready to provide you with the best advice for your business or home.",
-    "subTitle":"Complete your information below to continue.",
-    "name":"First and last name",
-    "email":"Email",
-    "phone":"Phone Number",
-    "state":"State",
-    "city":"City",
-    "zipCode":"Zip Code",
-    "buttonE":"Send",
-    "whatsApp":"WhatsApp",
-    "phoneE":"Phone",
-    "emailE":"Email",
-    "address":"Address",
-    "message":"Form submitted successfully",
-    "services":"Service",
-    "error":"Please complete all fields before submitting the form."
-  },
+"Contact": {
+  "title": "Information Request",
+"subTitle": "Schedule Your Consultation",
+"text1": "You are one step away from revitalizing your skin with the latest in regenerative medicine",
+"text": "Leave us your details and our medical team will contact you to schedule your assessment and design the perfect plan for you",
+  "name": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "phone": "Phone",
+  "state": "State",
+  "city": "City",
+  "zipCode": "Zip Code",
+  "message": "Message",
+  "buttonE": "Send",
+  "whatsApp": "WhatsApp",
+  "phoneE": "Phone",
+  "emailE": "Email",
+  "address": "Address",
+  "successMessage": "Form submitted successfully!",
+  "services": "Service",
+  "error": "Please fill in all fields before submitting the form."
+},
   "Testimonial":{
     "title":"Testimonial?",
     "nombre1":"Gustavo Cortes",
@@ -190,11 +194,16 @@
     "text2":"Contact us",
     "buttonc":"Contact us"
   },
-  "Footer":{
-    "title":"Do you want more information?",
-    "text":"We are ready to provide you the best advice for your business or home.",
-    "text1":"Social Media",
-    "buttonc":"Contact us"
-  }
+  "Footer": {
+  "title": "More information",
+  "textBold": "Not sure which treatment is ideal for you?",
+  "text": "Before any procedure, our team performs a personalized assessment to understand your skin's unique needs and your aesthetic goals.",
+  "text1": "Contact us",
+  "buttonc": "Make my reservation",
+  "address": "Location",
+  "emailE": "Gmail",
+  "phoneE": "Phone",
+  "social": "Social Media"
+}
 
 }
