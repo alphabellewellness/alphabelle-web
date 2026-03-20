@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { Menu } from "lucide-react";
 
@@ -12,7 +12,17 @@ const NavBar = () => {
 	const [scrolled, setScrolled] = useState(false); // <-- estado para scroll
 	const t = useTranslations("NavBar");
 	const localActive = useLocale();
+
+
+ const locale = useLocale();
+	const pathname = usePathname();
 	const router = useRouter();
+
+	const toggleLocale = () => {
+	const newLocale = locale === "en" ? "es" : "en";
+	const newPath = `/${newLocale}${pathname.replace(`/${locale}`, "")}`;
+	router.replace(newPath);
+	};
 
 	const links = [
 		{ name: "links1", href: "href1", current: false },
@@ -73,12 +83,12 @@ const NavBar = () => {
 							>
 								<a href={`/${localActive}/#contact`}>{t("buttonCont")}</a>
 							</button>
-							<Link
-								href={t("href5")}
-								className="px-3 py-2  text-md lg:text-lg text-negro hover:text-secundary transition-colors"
+							<button
+								onClick={toggleLocale}
+								className="rounded-full font-light text-black px-4 py-1 bg-rosado hover:bg-morado text-sm"
 							>
-								{t("links5")}
-							</Link>
+								{locale === "en" ? "ES" : "EN"}
+							</button>
 						</li>
 					</ul>
 
@@ -108,12 +118,12 @@ const NavBar = () => {
 									</a>
 								</li>
 							))}
-							<Link
-								href={t("href5")}
-								className="px-3 py-2 rounded-md text-2xl lg:text-lg text-white hover:text-secundary transition-colors"
+							<button
+								onClick={toggleLocale}
+								className="rounded-full font-light text-black px-4 py-1 bg-rosado hover:bg-morado text-sm"
 							>
-								{t("links5")}
-							</Link>
+								{locale === "en" ? "ES" : "EN"}
+							</button>
 							<button
 								href="#contact"
 								className="rounded-full font-semibold text-primary bg-m px-5 py-1 hover:bg-secundary transition-colors"
