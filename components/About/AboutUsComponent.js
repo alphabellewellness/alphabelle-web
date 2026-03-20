@@ -33,8 +33,10 @@ const AboutUsComponent = ({ t }) => {
                     <p className="mt-4 text-gray-600 font-light leading-relaxed">
                         {t("text")}
                         <br/>
+                         <br/>
                         {t("text1")}
                         <br/>
+                         <br/>
                         {t("text2")}
                     </p>
                 </div>
@@ -64,6 +66,7 @@ const AboutUsComponent = ({ t }) => {
                 <p className="text-base text-gray-700 font-light leading-relaxed">
                     {t("textM")}
                     <br/>
+                     <br/>
                     {t("textM1")}
                 </p>
             </div>
@@ -86,7 +89,7 @@ const AboutUsComponent = ({ t }) => {
             <div className="text-center">
                 <h4 className="font-bold italic text-2xl mb-4 uppercase tracking-tight">{t("vision")}</h4>
                 <p className="text-base text-gray-700 font-light leading-relaxed">
-                    {t("textV")}<br/>
+                    {t("textV")}<br/> <br/>
                     {t("textV1")}
                 </p>
             </div>

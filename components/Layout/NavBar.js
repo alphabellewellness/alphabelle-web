@@ -85,7 +85,7 @@ const NavBar = () => {
 							</button>
 							<button
 								onClick={toggleLocale}
-								className="rounded-full font-light text-black px-4 py-1 bg-rosado hover:bg-morado text-sm"
+								className="px-3 py-2  text-md lg:text-lg text-negro hover:text-secundary transition-colors"
 							>
 								{locale === "en" ? "ES" : "EN"}
 							</button>
@@ -120,7 +120,7 @@ const NavBar = () => {
 							))}
 							<button
 								onClick={toggleLocale}
-								className="rounded-full font-light text-black px-4 py-1 bg-rosado hover:bg-morado text-sm"
+								className="px-3 py-2 rounded-md text-2xl lg:text-lg text-white hover:text-secundary transition-colors"
 							>
 								{locale === "en" ? "ES" : "EN"}
 							</button>

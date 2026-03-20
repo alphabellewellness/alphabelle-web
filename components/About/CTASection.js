@@ -1,8 +1,11 @@
 import React from "react";
 import { MapPin, Mail, Phone, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
+
 const CTASection = () => {
   const t = useTranslations("CTA");
+  const localActive = useLocale();
 	return (
 		<section className="relative w-full min-h-[500px] flex flex-col justify-center items-center text-white overflow-hidden">
 			{/* Imagen de Fondo con Overlay Oscuro */}
@@ -23,10 +26,14 @@ const CTASection = () => {
 				<p className="text-lg md:text-lg font-light leading-relaxed mb-10 max-w-2xl text-gray-200">
 					{t("text")}
 				</p>
+	
 
-				<button className="mx-auto w-fit border-2 bg-secundary px-10 py-3 rounded-2xl font-semibold hover:bg-black text-black hover:text-white transition">
-					{t("buttonc")}
-				</button>
+				<button
+						className="mt-1 bg-[#6b5e50] hover:bg-[#5a4e42] text-white text-sm font-semibold px-8 py-3 rounded-2xl transition-colors duration-200"
+						type="submit"
+					>
+						<a href={`/${localActive}/#contact`}>{t("buttonc")}</a>
+					</button>
 			</div>
 
 			{/* Footer / Contacto rápido inferior */}
@@ -39,20 +46,22 @@ const CTASection = () => {
 					<div className="flex flex-wrap justify-center gap-8 md:gap-12 text-sm text-gray-300">
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<MapPin size={18} />
-							<span>Ubicación</span>
+							<span>2750 FM 1463 Suite 250, Katy, TX 77494</span>
 						</div>
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Mail size={18} />
-							<span>Gmail</span>
+							<span>info@alphabellewellness.com</span>
 						</div>
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Phone size={18} />
-							<span>Telefono</span>
+							<span>(346) 717-5550 /
+								(321) 330-6424
+							</span>
 						</div>
-						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
+						{/* <div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Instagram size={18} />
 							<span>Redes Sociales</span>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

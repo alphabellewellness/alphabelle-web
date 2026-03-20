@@ -4,9 +4,11 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { MapPin, Mail, Phone, Instagram } from "lucide-react";
 import Image from "next/image";
+import { useLocale } from "next-intl";
 
 export default function Footer() {
 	const t = useTranslations("Footer");
+	const localActive = useLocale();
 
 	return (
 		<footer className="w-full bg-[#f2f0e9] border-t border-[#e0dcd2] px-8 md:px-16 py-10">
@@ -31,12 +33,12 @@ export default function Footer() {
 						<strong className="font-bold">{t("textBold")} </strong>
 						{t("text")}
 					</p>
-					<a
-						href="#contact"
+					<button
 						className="mt-1 bg-[#6b5e50] hover:bg-[#5a4e42] text-white text-sm font-semibold px-8 py-3 rounded-2xl transition-colors duration-200"
+						type="submit"
 					>
-						{t("buttonc")}
-					</a>
+						<a href={`/${localActive}/#contact`}>{t("buttonc")}</a>
+					</button>
 				</div>
 
 				{/* ── Columna 3: Contacto ── */}
@@ -54,8 +56,8 @@ export default function Footer() {
 								icon: <Mail size={14} />,
 								label: "info@alphabellewellness.com",
 							},
-							{ icon: <Phone size={14} />, label: t("phoneE") },
-							{ icon: <Instagram size={14} />, label: t("social") },
+							{ icon: <Phone size={14} />, label: "(346) 717-5550 / (321) 330-6424" },
+							// { icon: <Instagram size={14} />, label: t("social") },
 						].map(({ icon, label }) => (
 							<li
 								key={label}
