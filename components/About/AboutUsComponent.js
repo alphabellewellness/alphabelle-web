@@ -5,10 +5,7 @@ const AboutUsComponent = ({ t }) => {
     return (
         <section className="relative w-full py-20 bg-white overflow-hidden flex flex-col items-center">
 
-            {/* Decoración Circular Izquierda */}
             <div className="hidden md:block absolute left-[-100px] top-20 w-[400px] h-[400px] border border-gray-200 rounded-full z-0 pointer-events-none" />
-
-            {/* Header / Logo y Texto Superior */}
             <div className="relative z-10 flex flex-col items-center text-center max-w-2xl px-6 mb-16">
                 <div className="mb-8">
                     <Image
@@ -24,8 +21,7 @@ const AboutUsComponent = ({ t }) => {
                 </p>
             </div>
 
-            {/* Contenedor de Título e Imagen Principal */}
-            <div className="relative w-full max-w-5xl px-6 flex flex-col gap-8 items-center md:block md:h-[450px]">
+            <div className="relative w-full max-w-5xl px-6 flex flex-col gap-8 items-center md:block md:h-[450px] pb-10">
                 <div className="w-full text-center md:absolute md:right-10 md:top-0 md:flex md:flex-col md:items-end md:max-w-md md:text-right md:w-auto">
                     <h3 className="text-4xl font-black italic text-negro uppercase tracking-tighter">
                         {t("heading")}
@@ -46,12 +42,10 @@ const AboutUsComponent = ({ t }) => {
                 </div>
             </div>
 
-          <div className="w-full max-w-4xl px-6 flex flex-col items-center gap-20 md:gap-32 mt-16">
+            <div className="w-full max-w-4xl px-6 flex flex-col items-center gap-20 md:gap-32 mt-16 lg:pt-10">
     
-    {/* Tarjeta MISIÓN (Arriba - Desplazada a la derecha) */}
     <div className="w-full  md:translate-x-12 lg:translate-x-20"> 
         <div className="relative bg-[#f2f0e9] p-10 rounded-[2rem] shadow-sm">
-            {/* Icono Misión - Esquina superior derecha */}
             <div className="absolute -top-6 -right-6 w-20 h-20 bg-[#333] rounded-full flex items-center justify-center shadow-xl border-4 border-white">
                 <Image
                     src="/image/icons/icono misión.png"
@@ -63,20 +57,18 @@ const AboutUsComponent = ({ t }) => {
             </div>
             <div className="text-center"> 
                 <h4 className="font-bold italic text-2xl mb-4 uppercase tracking-tight">{t("mision")}</h4>
-                <p className="text-base text-gray-700 font-light leading-relaxed">
+                <p className="text-base text-gray-700 font-light leading-relaxed ">
                     {t("textM")}
                     <br/>
-                     <br/>
+                    <br/>
                     {t("textM1")}
                 </p>
             </div>
         </div>
     </div>
 
-    {/* Tarjeta VISIÓN (Abajo - Desplazada a la izquierda) */}
-    <div className="w-full  md:-translate-x-12 lg:-translate-x-20">
+    <div className="w-full  md:-translate-x-12 lg:-translate-x-20 ">
         <div className="relative bg-[#f2f0e9] p-10 rounded-[2rem] shadow-sm">
-            {/* Icono Visión - Esquina superior izquierda */}
             <div className="absolute -top-6 -left-6 w-20 h-20 bg-[#333] rounded-full flex items-center justify-center shadow-xl border-4 border-white">
                 <Image
                     src="/image/icons/icono visión.png"

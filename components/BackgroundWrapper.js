@@ -13,9 +13,6 @@ const BackgroundWrapper = () => {
 				backgroundAttachment: "fixed",
 			}}
 		>
-			{/* Overlay */}
-			{/* <div className="absolute inset-0 bg-[#f2f0e9]/60 z-0" /> */}
-
 			<div className="relative z-10">
 				<AboutSection />
 				<TestimonialsSection />

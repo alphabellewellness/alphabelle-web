@@ -13,7 +13,6 @@ export default function Footer() {
 	return (
 		<footer className="w-full bg-[#f2f0e9] border-t border-[#e0dcd2] px-8 md:px-16 py-10">
 			<div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
-				{/* ── Columna 1: Logo ── */}
 				<div className="flex flex-col items-center md:items-start gap-3">
 					<Image
 						src="/image/logo.png"
@@ -23,8 +22,6 @@ export default function Footer() {
 						priority
 					/>
 				</div>
-
-				{/* ── Columna 2: Info + CTA ── */}
 				<div className="flex flex-col items-center gap-4 text-center">
 					<p className="text-xs tracking-[0.2em] uppercase text-[#888]">
 						{t("title")}
@@ -40,8 +37,6 @@ export default function Footer() {
 						<a href={`/${localActive}/#contact`}>{t("buttonc")}</a>
 					</button>
 				</div>
-
-				{/* ── Columna 3: Contacto ── */}
 				<div className="flex flex-col items-center gap-3">
 					<p className="text-xs tracking-[0.2em] uppercase text-[#888] mb-1">
 						{t("text1")}

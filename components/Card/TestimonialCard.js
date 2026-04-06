@@ -15,23 +15,20 @@ const TestimonialCard = ({
 				}
       `}
 		>
-			{/* Nombre y Servicio - Solo visible en el centro */}
 			{!isSide && (
 				<p className="text-xs md:text-sm mb-4 text-gray-600 font-bold tracking-[0.2em] uppercase">
 					{name}
 				</p>
 			)}
 
-			{/* Texto del Testimonio */}
 			<p
 				className={`text-gray-800 text-center leading-tight font-medium
-          ${isSide ? "text-sm md:text-base opacity-40 line-clamp-2" : "text-xl md:text-xl"}
+    	${isSide ? "text-sm md:text-base opacity-40 line-clamp-2" : "text-xl md:text-xl"}
         `}
 			>
 				{isSide ? text : `“${text}”`}
 			</p>
 
-			{/* Estrellas - Solo visibles en el centro */}
 			{!isSide && (
 				<div className="mt-8 flex gap-1">
 					{[...Array(5)].map((_, i) => (

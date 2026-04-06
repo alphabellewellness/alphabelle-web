@@ -16,7 +16,6 @@ const ServiceCard = ({
 			}`}
 			onClick={onClick}
 		>
-			{/* Icon container */}
 			<div className="w-16 h-16 bg-[#7c7468] rounded-full flex items-center justify-center mb-6 relative">
 				<Image
 					src={icon}
@@ -26,14 +25,10 @@ const ServiceCard = ({
 					className="object-contain"
 				/>
 			</div>
-
-			{/* Content */}
 			<div>
 				<h3 className="font-semibold text-lg mb-3 leading-snug">{title}</h3>
 				<p className="text-sm text-gray-600 mb-6">{description}</p>
 			</div>
-
-			{/* CTA */}
 			<button
 				className="flex items-center gap-2 font-semibold text-sm"
 				onClick={(e) => {

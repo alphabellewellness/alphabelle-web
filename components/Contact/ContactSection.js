@@ -100,7 +100,6 @@ const ContactSection = () => {
 			className="w-full py-16 px-6 md:px-20 bg-gradient-to-br from-[#4a443a] via-[#332f28] to-[#1a1814] text-white"
 		>
 			<div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-				{/* Columna Izquierda */}
 				<div className="space-y-6">
 					<div className="space-y-2">
 						<h2 className="text-3xl md:text-4xl font-serif italic font-medium">
@@ -131,8 +130,6 @@ const ContactSection = () => {
 						</div>
 					</div>
 				</div>
-
-				{/* Columna Derecha: Formulario */}
 				<div className="space-y-6">
 					{submitted ? (
 						<div className="flex items-center justify-center min-h-[320px]">
@@ -159,7 +156,6 @@ const ContactSection = () => {
 								/>
 							</div>
 
-							{/* Apellido */}
 							<div className="flex flex-col gap-1">
 								<label className="text-xs font-semibold uppercase tracking-tighter">
 									{t("lastName")}
@@ -173,7 +169,6 @@ const ContactSection = () => {
 								/>
 							</div>
 
-							{/* Email */}
 							<div className="flex flex-col gap-1">
 								<label className="text-xs font-semibold uppercase tracking-tighter">
 									{t("email")}
@@ -186,8 +181,6 @@ const ContactSection = () => {
 									className="w-full p-3 bg-white text-black outline-none h-12 rounded-2xl"
 								/>
 							</div>
-
-							{/* Telefono */}
 							<div className="flex flex-col gap-1">
 								<label className="text-xs font-semibold uppercase tracking-tighter">
 									{t("phone")}
@@ -200,8 +193,6 @@ const ContactSection = () => {
 									className="w-full p-3 bg-white text-black outline-none h-12 rounded-2xl"
 								/>
 							</div>
-
-							{/* Selector de Servicios */}
 							<div className="flex flex-col gap-1 md:col-span-2">
 								<label className="text-xs font-semibold uppercase tracking-tighter">
 									{t("service")}
@@ -222,7 +213,6 @@ const ContactSection = () => {
 								</select>
 							</div>
 
-							{/* Mensaje */}
 							<div className="flex flex-col gap-1 md:col-span-2">
 								<label className="text-xs font-semibold uppercase tracking-tighter">
 									{t("message")}
@@ -235,15 +225,11 @@ const ContactSection = () => {
 									className="w-full p-3 bg-white text-black outline-none resize-none rounded-2xl"
 								/>
 							</div>
-
-							{/* Error */}
 							{error && (
 								<p className="md:col-span-2 text-red-400 text-xs -mt-2">
 									{error}
 								</p>
 							)}
-
-							{/* Botón Enviar */}
 							<div className="md:col-span-2 flex justify-center mt-4">
 								<button
 									type="submit"

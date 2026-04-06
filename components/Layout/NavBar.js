@@ -9,7 +9,7 @@ import { Menu } from "lucide-react";
 
 const NavBar = () => {
 	const [isSideMenuOpen, setisSideMenuOpen] = useState(false);
-	const [scrolled, setScrolled] = useState(false); // <-- estado para scroll
+	const [scrolled, setScrolled] = useState(false);
 	const t = useTranslations("NavBar");
 	const localActive = useLocale();
 
@@ -28,12 +28,10 @@ const NavBar = () => {
 		{ name: "links1", href: "href1", current: false },
 		{ name: "links2", href: "href2", current: false },
 		{ name: "links3", href: "href3", current: false },
-		// { name: "links4", href: "href4", current: false },
 	];
 
 	const showSideMenu = () => setisSideMenuOpen(!isSideMenuOpen);
 
-	// Detectar scroll
 	useEffect(() => {
 		const handleScroll = () => {
 			if (window.scrollY > 50) {
@@ -91,8 +89,6 @@ const NavBar = () => {
 							</button>
 						</li>
 					</ul>
-
-					{/* Botón para menu móvil */}
 					<button
 						aria-label="Abrir menu"
 						onClick={showSideMenu}
@@ -100,8 +96,6 @@ const NavBar = () => {
 					>
 						<Menu className="w-8 h-8" />
 					</button>
-
-					{/* Menu móvil */}
 					<div
 						className={`transition-all duration-500 ease-in-out fixed w-full lg:hidden bg-white left-0 top-12 overflow-hidden ${
 							isSideMenuOpen ? "h-auto" : "h-0"

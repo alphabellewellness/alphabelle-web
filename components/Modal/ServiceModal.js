@@ -103,32 +103,25 @@ export default function ServiceModal({ serviceIndex, onClose }) {
 				.ab-benefit:hover { transform: translateX(4px); }
 			`}</style>
 
-			{/* Overlay */}
 			<div
 				className="ab-overlay fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-[rgba(20,18,14,0.55)] backdrop-blur-sm"
 				onClick={(e) => {
 					if (e.target === e.currentTarget) onClose();
 				}}
 			>
-				{/* Panel */}
 				<div
 					className="ab-modal w-full max-w-[560px] max-h-[88vh] overflow-y-auto rounded-[22px] bg-[#f2f0e9] shadow-[0_24px_64px_rgba(0,0,0,0.18)]"
 					onClick={(e) => e.stopPropagation()}
 				>
-					{/* ── Header ── */}
 					<div className="relative bg-white rounded-t-[22px] px-7 pt-7 pb-6 border-b border-[#e8e5db]">
 						
-						{/* Subtitle */}
 						<p className="text-[10px] tracking-[0.3em] uppercase text-[#bbb] mb-1.5">
 							{t("subtitle")}
 						</p>
 
-						{/* Title */}
 						<h2 className="text-xl font-bold italic text-[#1a1a1a] leading-snug pr-10">
 							{title}
 						</h2>
-
-						{/* Close */}
 						<button
 							className="ab-close absolute top-5 right-5 w-8 h-8 rounded-full bg-[#ede9df] flex items-center justify-center text-[#555] transition-colors duration-150 border-none cursor-pointer"
 							onClick={onClose}
@@ -143,37 +136,26 @@ export default function ServiceModal({ serviceIndex, onClose }) {
 							</svg>
 						</button>
 					</div>
-
-					{/* ── Body ── */}
-					<div className="px-7 py-6 flex flex-col gap-5">
-						{/* Descripción principal */}
+					<div className="px-7 py-6 flex flex-col gap-5">	
 						<p className="text-sm text-[#666] leading-[1.75]">{description}</p>
-
-						{/* Secciones dinámicas */}
 						{config.sections.map((section, si) => {
 							const hasItems = section.items?.length > 0;
 							const labelText = section.labelKey ? t(section.labelKey) : null;
 							const noteText = section.note ? t(section.note) : null;
-
 							if (!labelText && !hasItems && !noteText) return null;
-
 							return (
 								<div key={si} className="flex flex-col gap-2">
-									{/* Label de sección */}
 									{labelText && (
 										<p className="text-[9px] tracking-[0.25em] uppercase text-[#aaa]">
 											{labelText}
 										</p>
 									)}
 
-									{/* Nota inline */}
 									{noteText && (
 										<p className="text-[13px] text-[#555] leading-relaxed">
 											{noteText}
 										</p>
 									)}
-
-									{/* Lista de ítems */}
 									{hasItems && (
 										<ul className="flex flex-col gap-2 list-none">
 											{section.items.map((key, ii) => {
@@ -197,7 +179,6 @@ export default function ServiceModal({ serviceIndex, onClose }) {
 							);
 						})}
 
-						{/* ── CTA ── */}
 						<div className="mt-2 bg-white border border-[#e4e0d5] rounded-[14px] p-5 flex items-center justify-between gap-4 flex-wrap">
 							<div>
 								<p className="text-sm font-medium text-[#1a1a1a]">
