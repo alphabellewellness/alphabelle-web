@@ -80,7 +80,13 @@ const NavBar = () => {
 								className="rounded-2xl font-bold text-white bg-negro lg:px-5 lg:py-1 hover:bg-secundary transition-colors"
 								type="submit"
 							>
-								<a href={`/${localActive}/#contact`}>{t("buttonCont")}</a>
+								<a
+									href="https://shop.alphabellewellness.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{t("buttonCont")}
+								</a>
 							</button>
 							<button
 								onClick={toggleLocale}
@@ -124,7 +130,13 @@ const NavBar = () => {
 								className="rounded-full font-semibold text-primary bg-m px-5 py-1 hover:bg-secundary transition-colors"
 								type="submit"
 							>
-								<a href="https://shop.alphabellewellness.com">{t("buttonCont")}</a>
+								<a
+									href="https://shop.alphabellewellness.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{t("buttonCont")}
+								</a>
 							</button>
 						</ul>
 					</div>
