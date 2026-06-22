@@ -7,10 +7,10 @@
     "links3":"Services",
     "href3":"/#services",
     "links4":"Reservation",
-    "href4":"/reservation",
+    "href4":"/#contact",
     "links5":"Español",
     "href5":"/es",
-  "buttonCont":"Book Appointment"
+    "buttonCont":"Shop Now"
   },
   "Banner": {
     "title": "We are your exclusive destination with cutting-edge medical precision.",

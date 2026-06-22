@@ -28,6 +28,7 @@ const NavBar = () => {
 		{ name: "links1", href: "href1", current: false },
 		{ name: "links2", href: "href2", current: false },
 		{ name: "links3", href: "href3", current: false },
+		{ name: "links4", href: "href4", current: false },
 	];
 
 	const showSideMenu = () => setisSideMenuOpen(!isSideMenuOpen);
@@ -123,7 +124,7 @@ const NavBar = () => {
 								className="rounded-full font-semibold text-primary bg-m px-5 py-1 hover:bg-secundary transition-colors"
 								type="submit"
 							>
-								<a href={`/${localActive}/#contact`}>{t("buttonCont")}</a>
+								<a href="https://shop.alphabellewellness.com">{t("buttonCont")}</a>
 							</button>
 						</ul>
 					</div>

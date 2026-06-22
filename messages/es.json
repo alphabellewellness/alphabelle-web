@@ -6,11 +6,11 @@
     "href2":"about",
     "links3":"Servicios",
     "href3":"/#services",
-    "links4":"Reservacion",
-    "href4":"/reservation",
+    "links4":"Reservación",
+    "href4":"/#contact",
     "links5":"English",
     "href5":"/en",
-    "buttonCont":"Reservar una cita"
+    "buttonCont":"Comprar"
   },
 
   "Banner": {
